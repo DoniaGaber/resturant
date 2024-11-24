@@ -10,9 +10,10 @@ const BASE_URL= "http://localhost:3000"
 async function getAllProducts(){
     const res = await fetch(`${BASE_URL}/products`)
     const finalRes =await res.json()
-    // console.log(finalRes)
+    console.log(finalRes)
     disPlayProducts(finalRes)
 }
+
 
 
 function disPlayProducts(products){
