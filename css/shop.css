@@ -193,9 +193,12 @@ main h2 span{
     width: 100%;
     border-radius: 1em;
     overflow: hidden;
+    height: 20vh;
 }
 .about .about-boxes .about-boxes-box .image img{
     width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 .about .about-boxes .about-boxes-box .price-rate{
     display: flex;
